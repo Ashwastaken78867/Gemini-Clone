@@ -1,0 +1,40 @@
+.loaderWrapper {
+    display: flex;  /* Aligns loaders in a row */
+    gap: 10px;  /* Space between loaders */
+    flex-wrap: wrap;
+    justify-content: center; /* Allows wrapping on smaller screens */
+}
+
+.loaderContainer {
+    width: 120px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 8px;
+}
+
+.loaderImg {
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(-45deg, #eee 40%, #fafafa 50%, #eee 60%);
+    background-size: 300%;
+    background-position-x: 100%;
+    animation: shimmer 1s infinite linear;
+}
+
+.loadername {
+    height: 16px;
+    width: 80%;
+    background: linear-gradient(-45deg, #eee 40%, #fafafa 50%, #eee 60%);
+    background-size: 300%;
+    background-position-x: 100%;
+    animation: shimmer 1s infinite linear;
+    margin-top: 8px;
+}
+
+@keyframes shimmer {
+    to {
+        background-position-x: 0%;
+    }
+}
