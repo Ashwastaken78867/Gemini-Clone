@@ -1,5 +1,5 @@
 import { Link } from 'react-router';
-import './Header.css'; 
+import './header.css'; 
 import Chat from '../../pages/chat';
 
 const Header = (props) => {
