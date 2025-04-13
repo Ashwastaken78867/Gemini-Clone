@@ -6,7 +6,7 @@
     text-align: center;
     margin-top: 40px;
     width: 100%;
-    /* position: fixed; */
+    position: fixed;
     bottom: 0;
 }
 

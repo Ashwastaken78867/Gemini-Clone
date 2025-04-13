@@ -11,11 +11,9 @@ const App = () => {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<Chat />} />
       <Route path="/about" element={<About />} />
-
       <Route path="/teams" element={<Team />} />
-
       <Route path="/contact" element={<Contact />} />
       <Route path="/chat" element={<Chat />} />
       <Route path="/inbox" element={<Inbox />} />
